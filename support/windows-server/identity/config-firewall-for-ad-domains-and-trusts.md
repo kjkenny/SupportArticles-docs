@@ -60,7 +60,9 @@ For more information about the dynamic port range change in Windows Server 2012 
 |Client Port(s)|Server Port|Service|
 |---|---|---|
 |49152-65535/UDP|123/UDP|W32Time|
+|49152-65535/UDP|137/UDP|NetBIOS Name service|
 |49152-65535/TCP|135/TCP|RPC Endpoint Mapper|
+|49152-65535/TCP|139/TCP|NetBIOS Session service|
 |49152-65535/TCP|464/TCP/UDP|Kerberos password change|
 |49152-65535/TCP|49152-65535/TCP|RPC for LSA, SAM, NetLogon (*)|
 |49152-65535/TCP/UDP|389/TCP/UDP|LDAP|
